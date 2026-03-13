@@ -17,7 +17,10 @@ Contains default logic for django-online-shop, such as:
 Use
 > git clone https://github.com/FLEMMINDO/django-shop.git
 
-## 2. edit .envtest file
+## 2. create postgresql database
+Use pgadmin4 or psql (save credentials)
+
+## 3. edit .envtest file
 Switch filename into
 > .envtest -> .env
 
@@ -32,22 +35,22 @@ Edit .env file, put values into
 
 - SECRET_KEY=*your value* # generate with python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"<br>
 
-## 3. build&up the container
+## 4. build&up the container
 Use commands
 > docker compose build <br>
 > docker compose up -d<br>
 
-## 4. apply migrations&load fixtures
-### 4.1 aplly migrations
+## 5. apply migrations&load fixtures
+### 5.1 aplly migrations
 > docker-compose exec web python manage.py migrate
 
-### 4.2 load fixtures (IN ORDER BELOW!)
+### 5.2 load fixtures (IN ORDER BELOW!)
 > docker-compose exec web python manage.py loaddata products_product_category_202603130004_django.json<br>
 > docker-compose exec web python manage.py loaddata users_user_202603130004_django_fixed.json<br>
 > docker-compose exec web python manage.py loaddata products_product_202603130004_django.json<br>
 > docker-compose exec web python manage.py loaddata products_order_202603130004_django.json<br>
 > docker-compose exec web python manage.py loaddata products_basket_202603130004_django.json<br>
 
-### 5. visit localhost:8080
+### 6. visit localhost:8080
 Enjoy django-shop site!
 
