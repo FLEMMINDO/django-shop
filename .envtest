@@ -1,0 +1,11 @@
+# Django settings
+DJANGO_SECRET_KEY=*your value* #  generate with python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
+
+# PostgreSQL settings
+POSTGRES_DB=*your value*
+POSTGRES_USER=*your value*
+POSTGRES_PASSWORD=*your value*
+POSTGRES_HOST=*your value*
+POSTGRES_PORT=*your value*
