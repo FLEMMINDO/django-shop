@@ -1,0 +1,18 @@
+[
+  {
+    "model": "products.order",
+    "pk": 6,
+    "fields": {
+      "number": 4291729752258,
+      "user": 1
+    }
+  },
+  {
+    "model": "products.order",
+    "pk": 7,
+    "fields": {
+      "number": 8425042729203,
+      "user": 1
+    }
+  }
+]

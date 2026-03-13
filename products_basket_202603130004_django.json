@@ -1,0 +1,11 @@
+[
+  {
+    "model": "products.basket",
+    "pk": 5,
+    "fields": {
+      "quantity": 1,
+      "product": 2,
+      "user": 1
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Пальто пуховое The North Face",
+      "sex": "M",
+      "price": 17000,
+      "quantity": 10,
+      "image": "product_images/muj_kurt_res_N7yohf8.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Футболка женская Эбигейл",
+      "sex": "F",
+      "price": 2000,
+      "quantity": 13,
+      "image": "product_images/fut_jen_res_S6NS3wJ.jpeg",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Классические мужские туфли",
+      "sex": "M",
+      "price": 7000,
+      "quantity": 5,
+      "image": "product_images/muj_tufli_res_fm05Cei.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Женские туфли",
+      "sex": "F",
+      "price": 6000,
+      "quantity": 8,
+      "image": "product_images/tufli_jen_res_DpHfMUB.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Спортивный костюм (муж.)",
+      "sex": "M",
+      "price": 12000,
+      "quantity": 7,
+      "image": "product_images/muj_cost_res_zXIcS2H.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Спортивный костюм (жен.)",
+      "sex": "F",
+      "price": 10000,
+      "quantity": 4,
+      "image": "product_images/jen_cost_res_nMyg8lz.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Кроссовки мужские ROCKY-W",
+      "sex": "M",
+      "price": 8000,
+      "quantity": 3,
+      "image": "product_images/kros_muj_res_RCn7DVg.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Кроссовки женские STYLE",
+      "sex": "F",
+      "price": 7000,
+      "quantity": 15,
+      "image": "product_images/kros_jen_res_RYa29W0.jpg",
+      "category": 3
+    }
+  }
+]
