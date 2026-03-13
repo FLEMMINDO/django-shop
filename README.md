@@ -42,10 +42,10 @@ Use commands
 > docker-compose exec web python manage.py migrate
 
 ### 4.2 load fixtures (IN ORDER BELOW!)
-> docker-compose exec web python manage.py loaddata products_product_category_202603130004_django.json
-> docker-compose exec web python manage.py loaddata users_user_202603130004_django_fixed.json
-> docker-compose exec web python manage.py loaddata products_product_202603130004_django.json
-> docker-compose exec web python manage.py loaddata products_order_202603130004_django.json
+> docker-compose exec web python manage.py loaddata products_product_category_202603130004_django.json<br>
+> docker-compose exec web python manage.py loaddata users_user_202603130004_django_fixed.json<br>
+> docker-compose exec web python manage.py loaddata products_product_202603130004_django.json<br>
+> docker-compose exec web python manage.py loaddata products_order_202603130004_django.json<br>
 > docker-compose exec web python manage.py loaddata products_basket_202603130004_django.json<br>
 
 ### 5. visit localhost:8080
