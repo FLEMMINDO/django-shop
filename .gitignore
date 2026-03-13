@@ -3,6 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Database
+*.sqlite3
+*.db
+db.sqlite3
+*.sqlite3-journal
+
 # C extensions
 *.so
 
